@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<body>
+	<style>
+		#div {width: 200px;height: 200px}
+		#div img{width: 200px;height: 200px}
+		#div1 {width: 200px;height: 200px}
+		#div1 img{width: 200px;height: 200px}
+	</style>
+	<div id="div">
+		<img src="image/demo.jpg">
+	</div>
+	<div id="div1">
+		<img src="image/demo.jpg">
+	</div>
+	<script type="text/javascript" src="image/magnifierGcg.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			var de = document.getElementById("div");
+			var de1 = document.getElementById("div1");
+			magnifier(de,3);
+			magnifier(de1,4);
+		}
+	</script>
+</body>
+</html>
