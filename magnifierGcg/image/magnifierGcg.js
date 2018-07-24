@@ -6,6 +6,8 @@
 		selector 选择器 必填
 		size 大图相对原图的倍率
 		distance 距离原图的距离
+		bgc 遮罩层底色
+		opac 遮罩层透明度
 		**/
 	
 			function magnifier(selector,size,distance,bgc,opac){
